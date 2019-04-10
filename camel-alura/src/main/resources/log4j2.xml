@@ -9,7 +9,10 @@
     <Logger name="br.com.caelum.camel" level="debug">
       <AppenderRef ref="Console"/>
     </Logger>
-    <Logger name="org.apache.camel" level="warn">
+    <Logger name="org.apache.camel" level="error">
+      <AppenderRef ref="Console"/>
+    </Logger>
+    <Logger name="net.sf.json" level="error">
       <AppenderRef ref="Console"/>
     </Logger>
     <Root level="info">
