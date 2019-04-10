@@ -17,6 +17,7 @@
         </item>
      </itens>
     <pagamento>
+    	<status>CONFIRMADO</status>
         <valor>59.90</valor>
         <titular>Edgar Milho</titular>
         <email-titular>milhol@mnb.com</email-titular>
